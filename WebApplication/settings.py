@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config("SECRET_KEY")  # this is to replace the secret key you cut away before
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turned on in production!!!
 DEBUG = True
 
 ALLOWED_HOSTS = []
